@@ -20,7 +20,7 @@ limitations under the License.
 
 # Define Memoized Property
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Define][mdn-define-property] a memoized object property.
 
@@ -136,8 +136,8 @@ for ( i = 0; i < 10; i++ ) {
 
 ## See Also
 
--   [`@stdlib/utils/define-memoized-read-only-property`][@stdlib/utils/define-memoized-read-only-property]: define a memoized read-only object property.
--   [`@stdlib/utils/define-property`][@stdlib/utils/define-property]: define (or modify) an object property.
+-   <span class="package-name">[`@stdlib/utils/define-memoized-read-only-property`][@stdlib/utils/define-memoized-read-only-property]</span><span class="delimiter">: </span><span class="description">define a memoized read-only object property.</span>
+-   <span class="package-name">[`@stdlib/utils/define-property`][@stdlib/utils/define-property]</span><span class="delimiter">: </span><span class="description">define (or modify) an object property.</span>
 
 </section>
 
@@ -188,8 +188,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-define-memoized-property/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-define-memoized-property?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-define-memoized-property.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-define-memoized-property/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
