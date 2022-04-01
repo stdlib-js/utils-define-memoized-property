@@ -39,6 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-function": "^0.0.x",
     "@stdlib/assert-is-object": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-define-property": "^0.0.x"
   },
