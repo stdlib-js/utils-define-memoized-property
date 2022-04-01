@@ -1,0 +1,42 @@
+{
+  "name": "@stdlib/utils-define-memoized-property",
+  "version": "0.0.0",
+  "description": "Define a memoized object property.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-define-memoized-property.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "object",
+    "property",
+    "define",
+    "set",
+    "value",
+    "prop",
+    "descriptor",
+    "writable",
+    "configurable",
+    "memoized",
+    "memoize",
+    "deferred",
+    "defer",
+    "lazy"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
