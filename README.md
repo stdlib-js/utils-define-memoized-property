@@ -35,38 +35,32 @@ limitations under the License.
 
 > [Define][mdn-define-property] a memoized object property.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-define-memoized-property
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-defineMemoizedProperty = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-property@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var defineMemoizedProperty = require( 'path/to/vendor/umd/utils-define-memoized-property/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-property@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.defineMemoizedProperty;
-})();
-</script>
+var defineMemoizedProperty = require( '@stdlib/utils-define-memoized-property' );
 ```
 
 #### defineMemoizedProperty( obj, prop, descriptor )
@@ -121,14 +115,9 @@ A property `descriptor` has the following optional properties:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-property@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var fibonacci = require( '@stdlib/math-base-special-fibonacci' );
+var defineMemoizedProperty = require( '@stdlib/utils-define-memoized-property' );
 
 function Foo() {
     var self;
@@ -154,11 +143,6 @@ var i;
 for ( i = 0; i < 10; i++ ) {
     console.log( 'F: %d. Count: %d.', foo.fibo, foo.count );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -256,9 +240,9 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/define-memoized-read-only-property]: https://github.com/stdlib-js/utils-define-memoized-read-only-property/tree/umd
+[@stdlib/utils/define-memoized-read-only-property]: https://github.com/stdlib-js/utils-define-memoized-read-only-property
 
-[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property/tree/umd
+[@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property
 
 <!-- </related-links> -->
 
