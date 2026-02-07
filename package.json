@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-define-memoized-property",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Define a memoized object property.",
   "license": "Apache-2.0",
   "author": {
@@ -37,23 +37,23 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/assert-is-function": "^0.2.3",
     "@stdlib/assert-is-object": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-define-property": "^0.2.4",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/utils-define-property": "^0.2.5",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/assert-has-own-property": "^0.2.2",
-    "@stdlib/assert-is-configurable-property": "^0.2.2",
-    "@stdlib/assert-is-string": "^0.2.2",
-    "@stdlib/assert-is-writable-property": "^0.2.2",
-    "@stdlib/math-base-special-fibonacci": "^0.3.0",
+    "@stdlib/assert-has-own-property": "^0.2.3",
+    "@stdlib/assert-is-configurable-property": "^0.2.3",
+    "@stdlib/assert-is-string": "^0.2.3",
+    "@stdlib/assert-is-writable-property": "^0.2.3",
+    "@stdlib/math-base-special-fibonacci": "^0.3.1",
     "@stdlib/string-from-code-point": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
-    "@stdlib/utils-noop": "^0.2.2",
-    "@stdlib/utils-property-descriptor": "^0.2.2",
+    "@stdlib/utils-noop": "^0.2.3",
+    "@stdlib/utils-property-descriptor": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
