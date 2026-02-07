@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import defineMemoizedProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-property@esm/index.mjs';
+import defineMemoizedProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-property@v0.2.3-esm/index.mjs';
 ```
 
 #### defineMemoizedProperty( obj, prop, descriptor )
@@ -104,7 +104,7 @@ A property `descriptor` has the following optional properties:
 <script type="module">
 
 import fibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci@esm/index.mjs';
-import defineMemoizedProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-property@esm/index.mjs';
+import defineMemoizedProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-property@v0.2.3-esm/index.mjs';
 
 function Foo() {
     var self;
