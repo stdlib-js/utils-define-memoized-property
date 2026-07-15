@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2019 The Stdlib Authors.
@@ -16,16 +16,32 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { PropertyName, DataPropertyDescriptor } from '@stdlib/types/object';
 
 /**
-* Define a memoized object property.
+* Interface describing the property descriptor object for creating a memoized object property.
+*/
+interface PropertyDescriptor extends DataPropertyDescriptor {
+	/**
+	* Returns a memoized property value.
+	*
+	* @returns memoized property value
+	*/
+	value(): any;
+}
+
+/**
+* Defines a memoized object property.
 *
-* @module @stdlib/utils-define-memoized-property
+* @param obj - object on which to define property
+* @param prop - property name
+* @param desc - property descriptor
 *
 * @example
-* var defineMemoizedProperty = require( '@stdlib/utils-define-memoized-property' );
-*
 * var obj = {};
 *
 * function foo() {
@@ -42,12 +58,9 @@
 * var v = obj.foo;
 * // returns 'bar'
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function defineMemoizedProperty( obj: any, prop: PropertyName, desc: PropertyDescriptor ): void;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = defineMemoizedProperty;
